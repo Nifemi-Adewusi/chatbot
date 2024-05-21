@@ -15,7 +15,7 @@ async function getResponse(prompt) {
   const response = await result.response;
   const text = response.text();
 
-  console.log(text);
+  // console.log(text);
   return text;
 }
 
@@ -84,7 +84,7 @@ async function handleSubmit(event) {
   history.push(newUserRole);
   history.push(newAIRole);
 
-  console.log(history);
+  // console.log(history);
 }
 
 const chatForm = document.getElementById("chat-form");
