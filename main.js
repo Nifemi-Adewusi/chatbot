@@ -106,7 +106,7 @@ function greeting() {
   } else {
     greeting = "Good Evening";
   }
-  displayText.innerHTML = `${greeting} Beautiful Human `;
+  displayText.innerHTML = `${greeting} Amazing Human `;
 }
 
 greeting();
