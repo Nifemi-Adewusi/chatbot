@@ -41,7 +41,7 @@ export const aiDiv = (data) => {
   return `
   <!-- AI Chat -->
           <div class="flex gap-2 justify-end">
-            <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md shadow-md whitespace-pre-wrap">
+            <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-lg shadow-md whitespace-pre-wrap">
               ${data}
             </pre>
             <img
