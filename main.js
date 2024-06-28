@@ -25,7 +25,7 @@ export const userDiv = (data) => {
   <!-- User Chat -->
           <div class="flex items-center gap-2 justify-start">
             <img
-              src="user.jpg"
+              src="communications.png"
               alt="user icon"
               class="w-10 h-10 rounded-full"
             />
